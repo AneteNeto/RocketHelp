@@ -3,7 +3,7 @@
 
 
 Aplicativo de solicitações de manutenção de equipamentos internos de uma empresa.  
-Neste app, você pode criar uma solicitação e receber a solução em tempo real.
+O app permite gerenciar os pedidos de solicitações
 
 ## 🚀 Tecnologias:
 
@@ -29,5 +29,6 @@ Neste app, você pode criar uma solicitação e receber a solução em tempo rea
 - **TypeScript** utizada para aumentar a produtividade e na criação de tipagens
 - **Native Base** a componentização do projecto foi feita utlizando está  biblioteca ,que permite ser mais produtivo e construir components com uma UI consistente
 - **React Native SVG Transformer** utilizado para importar arquivos svg com a sintaxe de um componente,uma boa alternativa pois o React Native não tem suporte padrão para svg. 
--**Firebase**  para configurar o firebase no projecto expo é necessario algumas configurações pois o Expo Go não posui suporte por enquanto,configuração feita utilizando plugins **[NATIVE FIREBASE SDK] (https://docs.expo.dev/guides/setup-native-firebase/)** que permite automatizar a instalação das dependências no código nativo e em seguida executar ```expo prebuild``` e  ```expo run:android```.
+
+-**Firebase**  para configurar o firebase no projecto expo é necessario algumas configurações pois o Expo Go não posui suporte por enquanto,configuração feita utilizando plugins **[NATIVE FIREBASE SDK] (https://docs.expo.dev/guides/setup-native-firebase/)** que permite automatizar a instalação das dependências no código nativo e em seguida executar ```expo prebuild``` e  ```expo run:android```.Foram utilizados de autenticação(**Firebase Authentication**) e armazenamento (**Firebase Cloud Firestore**)
 
