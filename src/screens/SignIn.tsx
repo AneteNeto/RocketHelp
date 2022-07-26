@@ -1,13 +1,12 @@
-import {useState} from 'react';
+import React, {useState} from 'react';
 import { Alert } from 'react-native';
 import auth  from '@react-native-firebase/auth';
 import { VStack , Heading, useTheme,Icon } from "native-base";
-import Logo from '../assets/logo_primary.svg'
 import{ Envelope ,Key} from "phosphor-react-native";
 
 import { Input } from "../components/Input";
 import { Button } from "../components/Button";
-import React from 'react';
+import Logo from '../assets/logo_primary.svg'
 
 export function SignIn() {
     
@@ -43,7 +42,7 @@ export function SignIn() {
     return(
         <VStack  flex={1}  alignItems="center" bg="gray.600" px={8} pt={24}>
           <Logo/>
-        <Heading color="gray.100" mt={20} mb={6} fontSize="xl">Time to restart</Heading >
+        <Heading color="gray.100" mt={20} mb={6} fontSize="xl">Acesse a sua conta</Heading >
         <Input 
           mb={4}
           placeholder="E-mail" 

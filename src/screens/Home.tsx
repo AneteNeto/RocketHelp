@@ -1,18 +1,17 @@
-import { Heading, HStack, Text, VStack, useTheme, IconButton, FlatList, Center } from 'native-base';
-import { SignOut, ChatTeardropText } from 'phosphor-react-native';
-import { useState, useEffect} from 'react';
-import { useNavigation } from '@react-navigation/native';
+import React, { useState, useEffect} from 'react';
 import { Alert } from 'react-native';
 import auth from '@react-native-firebase/auth';
+import { useNavigation } from '@react-navigation/native';
 import firestore from '@react-native-firebase/firestore';
-import Logo from '../assets/logo_secondary.svg';
+import { SignOut, ChatTeardropText } from 'phosphor-react-native';
+import { Heading, HStack, Text, VStack, useTheme, IconButton, FlatList, Center } from 'native-base';
 
 import { Button } from '../components/Button';
 import { Filter } from '../components/Filter';
-import {Order, OrderProps} from '../components/Order';
-import React from 'react';
-import { FirebaseAuthTypes } from '@react-native-firebase/auth';
 import { Loading } from '../components/Loading';
+import {Order, OrderProps} from '../components/Order';
+
+import Logo from '../assets/logo_secondary.svg';
 import { dateFormat } from '../utils/firestoreDataFormat';
 
 export function Home() {

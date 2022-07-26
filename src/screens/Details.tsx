@@ -1,19 +1,18 @@
-import { VStack, Text, useTheme, HStack, ScrollView, Box } from 'native-base';
-import { Header } from '../components/Header';
-
-import { useRoute,useNavigation } from '@react-navigation/native'
 import React ,{ useState, useEffect } from 'react';
-import { OrderProps } from '../components/Order';
+import { Alert } from 'react-native';
+import firestore  from '@react-native-firebase/firestore';
+import { useRoute,useNavigation } from '@react-navigation/native'
+import { VStack, Text, useTheme, HStack, ScrollView, Box } from 'native-base';
 import { CircleWavyCheck, DesktopTower, Hourglass, Clipboard }from 'phosphor-react-native';
 
-import firestore  from '@react-native-firebase/firestore';
-import { OrderFirestoreDTO } from '../DTOs/orderFirestoreDTO';
-import { Alert } from 'react-native';
-import { dateFormat } from '../utils/firestoreDataFormat';
-import { Loading } from '../components/Loading';
-import { CardDetails } from '../components/CardDetails';
 import { Input } from '../components/Input';
+import { Header } from '../components/Header';
 import { Button } from '../components/Button';
+import { Loading } from '../components/Loading';
+import { OrderProps } from '../components/Order';
+import { CardDetails } from '../components/CardDetails';
+import { dateFormat } from '../utils/firestoreDataFormat';
+import { OrderFirestoreDTO } from '../DTOs/orderFirestoreDTO';
 
 type RouteParams={
   orderId:string;
