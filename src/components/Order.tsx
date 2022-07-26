@@ -1,6 +1,8 @@
+import React from 'react';
 import { Box, HStack, Text, useTheme, VStack, Icon, Circle, Pressable, IPressableProps } from 'native-base';
 import {Hourglass ,ClockAfternoon, CircleWavyCheck, DesktopTower, ClipboardText } from 'phosphor-react-native';
-import React from 'react';
+
+
 export type OrderProps={
     id: string;
     patrimony:string;

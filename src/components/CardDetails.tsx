@@ -1,9 +1,7 @@
 import React, { ReactNode } from 'react';
 
-import { IconProps, DesktopTower } from 'phosphor-react-native';
-import { VStack, HStack ,Text ,Box, useTheme, IconButton } from 'native-base';
-import colors from 'native-base/lib/typescript/theme/base/colors';
-
+import { IconProps } from 'phosphor-react-native';
+import { VStack, HStack ,Text ,Box, useTheme} from 'native-base';
 
 type Props={
     title:string;

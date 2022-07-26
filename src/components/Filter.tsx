@@ -1,3 +1,4 @@
+import React from 'react';
 import { Text, Button, IButtonProps ,useTheme,Heading} from 'native-base';
 
 

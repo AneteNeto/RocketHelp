@@ -14,6 +14,7 @@ import {Order, OrderProps} from '../components/Order';
 import Logo from '../assets/logo_secondary.svg';
 import { dateFormat } from '../utils/firestoreDataFormat';
 
+
 export function Home() {
     const {colors}=useTheme();
     const [isLoading,setIsLoading]=useState(true);

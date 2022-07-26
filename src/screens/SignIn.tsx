@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import { Alert } from 'react-native';
+import{ Envelope ,Key } from "phosphor-react-native";
 import auth  from '@react-native-firebase/auth';
 import { VStack , Heading, useTheme,Icon } from "native-base";
-import{ Envelope ,Key} from "phosphor-react-native";
+
 
 import { Input } from "../components/Input";
 import { Button } from "../components/Button";
