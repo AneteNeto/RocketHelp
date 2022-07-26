@@ -1,12 +1,14 @@
-import { VStack } from 'native-base';
 import React,{ useState } from 'react';
 import { Alert } from 'react-native';
-import { useNavigation} from '@react-navigation/native'
-import { Button } from '../components/Button';
-import { Header } from '../components/Header';
-import { Input } from '../components/Input';
-
+import { VStack } from 'native-base';
+import { useNavigation} from '@react-navigation/native';
 import firestore from '@react-native-firebase/firestore';
+
+
+import { Button } from 'components/Button';
+import { Header } from 'components/Header';
+import { Input } from 'components/Input';
+
 
 export function Register() {
 

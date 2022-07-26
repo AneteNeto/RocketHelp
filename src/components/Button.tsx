@@ -1,5 +1,6 @@
-import {Button as NativeBaseButton,IButtonProps ,Heading} from 'native-base';
 import React from 'react';
+import {Button as NativeBaseButton,IButtonProps ,Heading} from 'native-base';
+
 
 type Props= IButtonProps &{
     title:string;

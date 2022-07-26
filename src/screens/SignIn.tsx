@@ -1,13 +1,14 @@
-import {useState} from 'react';
+import React, { useState } from 'react';
 import { Alert } from 'react-native';
-import auth  from '@react-native-firebase/auth';
+import{ Envelope ,Key } from "phosphor-react-native";
 import { VStack , Heading, useTheme,Icon } from "native-base";
-import Logo from '../assets/logo_primary.svg'
-import{ Envelope ,Key} from "phosphor-react-native";
+import auth  from '@react-native-firebase/auth';
 
-import { Input } from "../components/Input";
-import { Button } from "../components/Button";
-import React from 'react';
+import Logo from '/assets/logo_primary.svg'
+
+
+import { Input } from "components/Input";
+import { Button } from "components/Button";
 
 export function SignIn() {
     
